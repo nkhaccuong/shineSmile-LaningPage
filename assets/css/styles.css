@@ -385,3 +385,176 @@ a {
     border-color: #2E80CE;
     transform: translateY(-16px);
 }
+
+/* Features */
+.features {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.features__inner {
+    display: flex;
+    gap: 130px;
+}
+
+.features__media {
+    width: 49%;
+}
+
+.features__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.features__imgs {
+    position: relative;
+    padding-bottom: 121px;
+    padding-right: 58px;
+}
+
+.features__img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+    height: 370px;
+}
+
+.features__desc {
+    margin-bottom: 38px;
+}
+
+/* Member */
+.member {
+    padding: 85px 0;
+    text-align: center;
+}
+
+.member__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member__btn {
+    margin-top: 38px;
+}
+
+.member__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.member-item__img-bg {
+    padding-top: 28px;
+    border-radius: 6px;
+    background: #EAF6FF;
+    overflow: hidden;
+}
+
+.member-item__img {
+    max-width: 100%;
+    display: block;
+}
+
+.member-item__tile {
+    margin-top: 12px;
+    color: #10375C;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.75;
+}
+
+.member-item__desc {
+    color: #575F66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.85;
+}
+
+.member__control {
+    display: flex;
+    margin-top: 38px;
+    justify-content: center;
+    column-gap: 18px;
+
+}
+
+.member__control--btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575F66;
+    outline: none;
+    background-color: #FFF;
+    color: #575F66;
+}
+
+.member__controll--icon-next {
+    rotate: 180deg;
+}
+
+.member__control--btn:hover {
+    background-color: #2E80CE;
+    border-color: #575F66;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.install {
+    margin-top: 180px;
+}
+
+.install__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2E80CE;
+}
+
+.install__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+}
+
+.install__info {
+    width: 586px;
+}
+
+.install__heading,
+.install__desc {
+    color: #ffff;
+}
+
+.install__heading {
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.20;
+    letter-spacing: -1px;
+}
+
+.install__desc {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    column-gap: 28px;
+}
